@@ -1,0 +1,142 @@
+index,account,fund,department,type,source_page,parse_status,review_reason,ocr_source_line
+0,010-306-103,General Fund,Justice Of Peace,Revenue,3,parsed,implausible OCR magnitude,"2027 010-306-103 LOCAL CCC 01-01-2020 22,500.00 10,000.00 27,630.31 276.30 21,833.92 8,398.95"
+1,010-435-103,General Fund,District Clerk's Office,Expenditure,13,inferred_partial,incomplete numeric columns,"2027 010-435-103 P/T DEPUTY 4,000.00 00.00 00 00"
+2,010-435-183,General Fund,District Clerk's Office,Expenditure,13,review,ambiguous OCR field grouping,"2027 010-435-183 LANGUAGE SKILLS PAY 1,500.00 00.00 ‘1,500.00 600.08"
+3,010-435-208,General Fund,District Clerk's Office,Expenditure,13,parsed_missing_requested,YTD/percent consistency check failed,2027 010-435-208 MISC TRAVEL & MEAL 100.00 100.00 00.00 00 00
+4,010-455-915,General Fund,Justice of the Peace,Expenditure,14,parsed,YTD/percent consistency check failed,"2027 010-455-915 POSTAGE 700.00 700.00 1,106.74 168.11 515.90 376.88"
+5,010-510-604,General Fund,County Building Maintenance,Expenditure,22,parsed_missing_requested,YTD/percent consistency check failed,2027 010-510-604 TELEPHONE 250.00 250.00 00.00 82.48 247.44
+6,010-510-697,General Fund,County Building Maintenance,Expenditure,22,parsed_missing_requested,YTD/percent consistency check failed,"2027 010-510-697 TOTAL 250,00 250.00 00.00 82.48 247.44"
+7,014-624-103,Road & Bridge Precinct 4,Precinct 4,Expenditure,45,parsed,YTD/percent consistency check failed,"2027 014-624-103 COMMISSIONER SALARY 67,977.00 64,740.00 62,250.00 996.15 61,657.00 58,721.00"
+8,014-624-897,Road & Bridge Precinct 4,Precinct 4,Expenditure,46,parsed,YTD/percent consistency check failed,"2027 014-624-897 TOTAL EQUIPMENT/CAPITAL OU 199,000.00 199 000.00 1,166.96 -59 117,963.83 25,487.58"
+9,015-304-201,Road & Bridge,Road & Brioge Income Acc,Revenue,47,review,ambiguous OCR field grouping; YTD/percent consistency check failed,"2027 015-304-201 COUNTY SPECIAL AD VALOR 1409.096.00 1543,006.00 128,579.80 80.27 1956,683.71 1262,804.44"
+10,016-300-000,Road & Bridge Heavy Equipment,R&B Heavy Equipment,Revenue,49,review,ambiguous OCR field grouping,2027 016-300-000 R&B HEAVY EQUIPMENT INCOM 00 00.00 00 oo
+11,016-625-000,Road & Bridge Heavy Equipment,R&B Heavy Equipment Expen,Expenditure,50,review,ambiguous OCR field grouping,2027 016-625-000 R&B HEAVY EQUIPMENT EXPEN 00 00.00 00 1)
+12,016-625-307,Road & Bridge Heavy Equipment,R&B Heavy Equipment Expen,Expenditure,50,inferred_partial,incomplete numeric columns,2027 016-625-307 MISC. EXPENSE 09 00.00 00 00
+13,019-399-999,Disaster Relief Fund,Dept 399,Revenue,51,parsed_missing_requested,YTD/percent consistency check failed,"2027 019-399-999 DISASTER RELIEF ACTUAL REVEN 500.00 00 3901.45.00 458.17 2,122.65"
+14,019-500-997,Disaster Relief Fund,Disaster Relief Fund Expense,Expenditure,52,review,ambiguous OCR field grouping,"2027 019-500-997 TOTAL DISASTER RELIEF EXPENS 00 00.00 00 106,317.87"
+15,020-600-100,Coronavirus Fiscal Recovery,Dept 600,Expenditure,54,review,ambiguous OCR field grouping,"2027 020-600-100 CORONAVIRUS FRF DISTRIBUTION 09 00.00 996.731.00 169,573.71"
+16,020-500-997,Coronavirus Fiscal Recovery,Coronavirus Frf Expense 00 00.00 I),Expenditure,54,review,ambiguous OCR field grouping,"2027 020-500-997 TOTAL CORONAVIRUS FRF EXPENS 00 00.00 996,731.00 169,873.71"
+17,020-999-999,Coronavirus Fiscal Recovery,Dept 999,Expenditure,54,review,ambiguous OCR field grouping,"2027 020-999-999 TOTAL CORONAVIRUS FRF EXPEND 00 00.00 996,731.00 169,573.71"
+18,022-300-210,CTIF,Ctif,Revenue,56,review,ambiguous OCR field grouping,"2027 022-300-210 CTIF GRANT 00 00.00 00 40,850.94"
+19,022-300-297,CTIF,Ctif,Revenue,56,review,ambiguous OCR field grouping,"2027 022-300-297 INCOME TOTAL 00 00.00 -00 40,850.94"
+20,022-399-999,CTIF,Dept 399,Revenue,56,review,ambiguous OCR field grouping,"2027 022-399-999 ACTUAL REVENUE 00 00.00 00 40,850.94"
+21,022-627-998,CTIF,Ctif Expense,Expenditure,57,review,ambiguous OCR field grouping,"2027 022-627-998 CTIF EXPENDITURES 00 00.00 00 21,060.22"
+22,024-301-900,Grant Fund,Web,Revenue,60,review,ambiguous OCR field grouping,"2027 024-301-900 GRANT INCOME 00 00.00 00 66,054.36"
+23,024-302-997,Grant Fund,Juv Eq Therapy,Revenue,60,review,ambiguous OCR field grouping,"2027 024-302-997 GRANTH 4859701 TOTAL INCOME 00 00.00 00 32,742.93"
+24,024-303-000,Grant Fund,Hs,Revenue,60,review,ambiguous OCR field grouping,"2027 024-303-000 HS GRANT#5086101 INCOME 00 00.00 00 32,742.93"
+25,024-401-702,Grant Fund,Web Eoc Grant#4845801 Expens,Expenditure,62,review,ambiguous OCR field grouping,"2027 024-401-702 SERVICE AGREEMENTS 00 00.00 00 79,804.36"
+26,024-401-998,Grant Fund,Web Eoc Grant#4845801 Expens,Expenditure,62,review,ambiguous OCR field grouping,"2027 024-401-998 GRANT#4845801 TOTAL EXPENSES 00 00.00 00 79,804.36"
+27,024-402-302,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-302 LICENSED COUNSELOR 00 00.00 00 7,020.00"
+28,024-402-303,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-303 EQUINE SPECIALIST 00 00.00 00 9,990.00"
+29,024-402-603,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-603 ELECTRICITY 00 00.00 00 4,500.00"
+30,024-402-901,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-901 PROJECT SUPPLIES 00 00.00 002,831.00"
+31,024-402-902,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-902 PRESENTATION/TRAINING SUPPLI 00 00.00 008,401.93"
+32,024-402-998,Grant Fund,Juv Eq Therapy 4859701 Expen,Expenditure,63,review,ambiguous OCR field grouping,"2027 024-402-998 GRANT#4859701 TOTAL EXPENSES 00 00.00 00 32,742.93"
+33,024-403-803,Grant Fund,Hs Grant#5086101 Expense,Expenditure,64,review,ambiguous OCR field grouping,2027 024-403-803 EQUIPMENT 00 00.00 102.250.00 00
+34,024-404-998,Grant Fund,Balistic Vest 5463501 Expens,Expenditure,65,review,ambiguous OCR field grouping,"2027 024-404-998 GRANT #5463501 TOTAL EXPENSE 001,281.00 00 102,250.00 00"
+35,024-999-999,Grant Fund,Dept 999,Expenditure,67,review,ambiguous OCR field grouping,"2027 024-999-999 TOTAL EXPENDITURES 008,626.00 00 102,250.00 112,547.29"
+36,026-629-506,Lateral Road Fund,Lateral Road Expenses,Expenditure,72,parsed,YTD/percent consistency check failed,"2027 026-629-506 MISCELLANEOUS MATERIAL 10,000.00 12,000.00 3.00.00 25.00 10.913.36 10,433.06"
+37,026-629-597,Lateral Road Fund,Lateral Road Expenses,Expenditure,72,parsed,YTD/percent consistency check failed,"2027 026-629-597 TOTAL CONSTRUCTION 10.00.00 12,000.00 3.00.00 25.00 10.913.36 10,433.06"
+38,026-629-806,Lateral Road Fund,Lateral Road Expenses,Expenditure,72,review,ambiguous OCR field grouping,"2027 026-629-806 RIGHT OF WAYS 00 00.00 00 102,125.00"
+39,026-629-897,Lateral Road Fund,Lateral Road Expenses,Expenditure,72,review,ambiguous OCR field grouping,"2027 026-629-897 TOTAL CAPITAL OUTLAY 00 00.00 00 102,125.00"
+40,026-999-999,Lateral Road Fund,Dept 999,Expenditure,72,parsed,YTD/percent consistency check failed,"2027 026-999-999 TOTAL EXPENDITURES 10,000.00 12,000.00 3.00.00 25.00 10.913.36 112,558.06"
+41,034-305-906,Court Facility Fee Fund,Dept 305,Revenue,75,parsed,YTD/percent consistency check failed,"2027 034-305-906 DIST CLERK COURT FACILITY FE 2.00.00 2,000.00 2,927.41 116.37 2,654.95 2,200.00"
+42,037-306-906,Language Access Fund,Dept 306,Revenue,79,parsed,YTD/percent consistency check failed,2027 037-306-906 JP LANGUAGE ACCESS FEE 350.00 360.00 390.00. 111.43 540.00 360.00
+43,071-305-000,Appellate Judicial System,Appellate Judicial System,Revenue,82,review,ambiguous OCR field grouping,2027 071-305-000 APPELLATE JUDICIAL SYSTEM 00 00.00 09 00
+44,071-305-206,Appellate Judicial System,Appellate Judicial System,Revenue,82,parsed,YTD/percent consistency check failed,2027 071-305-206 DISTRICT COURT APPELLATE 400.00 400.00 $65.71 141.43 704.28 $50.00
+45,071-400-000,Appellate Judicial System,2Nd Court Criminal Appeal,Expenditure,83,inferred_partial,incomplete numeric columns,2027 071-400-000 2ND COURT CRIMINAL APPEAL 7) 00.00 00 00
+46,072-303-000,County Court Record Tech,Records Technology (Archiv,Revenue,84,review,ambiguous OCR field grouping,2027 072-303-000 RECORDS TECHNOLOGY (ARCHIV 00 00.00 7) 00
+47,076-399-999,County Jury Fund,Dept 399,Revenue,94,review,ambiguous OCR field grouping,2027 076-399-999 ACTUAL REVENUE 00 00.00 00 7)
+48,077-306-999,County Specialty Court Fund,Jp Specialty Court Income 00 00.00 I),Revenue,95,review,ambiguous OCR field grouping,2027 077-306-999 JP SPECIALTY CRT INCOME TOTA 00 00.00 7) 00
+49,077-399-999,County Specialty Court Fund,Dept 399,Revenue,95,review,ambiguous OCR field grouping,2027 077-399-999 ACTUAL REVENUE 00 00.00 09 00
+50,077-999-999,County Specialty Court Fund,Dept 999,Expenditure,95,review,ambiguous OCR field grouping,"2027 077-999-999 TOTAL EXPENDITURES, 00 00.00 7) 00"
+51,078-305-999,County Clerk RHBP Fund,District Clerk Rm&P Fund,Revenue,96,review,ambiguous OCR field grouping,"2027 078-305-999 DISTRICT CLERK RM&P TOTAL, 00 00.00 09 00"
+52,078-999-999,County Clerk RHBP Fund,Dept 999,Expenditure,97,parsed,YTD/percent consistency check failed,"2027 078-999-999 TOTAL EXPENDITURES 40,000.00 40.00.00 967.92 1.42 50,566.48 1,200.00"
+53,080-303-903,Records Preservation Fund,Records Preservation Fee,Revenue,100,parsed_missing_requested,YTD/percent consistency check failed,2027 080-303-903 CO CLK RECORD PRESERVATIO 10.00 10.00 00.00 00 00
+54,080-303-997,Records Preservation Fund,Records Preservation Fee,Revenue,100,parsed_missing_requested,YTD/percent consistency check failed,2027 080-303-997 CO CLERK RECORD PRESERVATION 10.00 10.00 00.00 00 00
+55,080-305-903,Records Preservation Fund,Records Preservation Fee,Revenue,100,parsed_missing_requested,YTD/percent consistency check failed,2027 080-305-903 DIST CLK RECORD PRESERVATION 100.00 100.00 00.00 00 50.00
+56,080-305-997,Records Preservation Fund,Records Preservation Fee,Revenue,100,parsed_missing_requested,YTD/percent consistency check failed,2027 080-305-997 DIST CLK RECORD PRESERVATION 100.00 100.00 00.00 00 50.00
+57,080-399-999,Records Preservation Fund,Dept 399,Revenue,100,parsed_missing_requested,YTD/percent consistency check failed,2027 080-399-999 ACTUAL REVENUE 110.00 110.00 00.00 00 50.00
+58,080-405-998,Records Preservation Fund,Dist Clk Record Preservat,Expenditure,102,review,ambiguous OCR field grouping,2027 080-405-998 EXPENDITURES 00 00.00 00 i)
+59,080-600-998,Records Preservation Fund,00 00.00 00 I),Expenditure,102,review,ambiguous OCR field grouping,2027 080-600-998 EXPENDITURES 00 00.00 00 i)
+60,081-301-000,Jack Co. Work Program,Dept 301,Revenue,103,inferred_partial,incomplete numeric columns,"2027 081-301-000 C.C.P. INCOME ACCOUNTS 100,000.00 00.00 00 00"
+61,081-301-697,Jack Co. Work Program,Dept 301,Revenue,103,inferred_partial,incomplete numeric columns,2027 081-301-697 STATE REVENUE TOTAL 100.000.00 00.00 00 00
+62,081-399-999,Jack Co. Work Program,Dept 399,Revenue,103,inferred_partial,incomplete numeric columns,"2027 081-399-999 ACTUAL REVENUE 100,000.00 00.00 00 00"
+63,081-601-197,Jack Co. Work Program,C.C.P. Expenses,Expenditure,104,parsed,YTD/percent consistency check failed,"2027 081-601-197 TOTAL SALARIES 67,500.00 62,992.00 $8,706.29 93.20 00 00"
+64,081-601-204,Jack Co. Work Program,C.C.P. Expenses,Expenditure,104,review,ambiguous OCR field grouping,2027 081-601-204 UNEMPLOYMENT INSURANCE 500.00 00.00 ) 7)
+65,081-601-205,Jack Co. Work Program,C.C.P. Expenses,Expenditure,104,review,ambiguous OCR field grouping,2027 081-601-205 WORKERS COMP INSURANCE 600.00 00.00 ) 00
+66,081-601-600,Jack Co. Work Program,C.C.P. Expenses,Expenditure,104,parsed_missing_requested,YTD/percent consistency check failed,"2027 081-601-600 SUPPLIES/OPERATING EXPENSE 15,000.00 5,000.00 00.00 00 00"
+67,081-601-998,Jack Co. Work Program,C.C.P. Expenses,Expenditure,104,parsed_missing_requested,YTD/percent consistency check failed,"2027 081-601-998 JACK CO WORK PRG EXPENDITURE 136,672.19 104,492.00 96,507.29 92.36 ) 00"
+68,081-999-999,Jack Co. Work Program,Jack Co Work Prg,Expenditure,104,parsed,YTD/percent consistency check failed,"2027 081-999-999 TOTAL EXPENDITURES 136,672.19 104,492.00 96.07.29 92.36 00 00"
+69,083-300-997,CARES Act Grant,Cares Act Grant Income Oo 00.00 I),Revenue,107,review,ambiguous OCR field grouping,2027 083-300-997 TOTAL CARES ACT GRANT INCOME i) 00.00 1) 00
+70,083-501-207,CARES Act Grant,Emg Manag,Expenditure,109,review,ambiguous OCR field grouping,2027 083-501-207 SCHOOL/CONFERENCE 00 00.00 00 09
+71,083-501-313,CARES Act Grant,Emg Manag,Expenditure,109,review,ambiguous OCR field grouping,2027 083-501-313 FURNITURE/EQUIPMENT 00 00.00 1) 00
+72,083-501-403,CARES Act Grant,Emg Manag,Expenditure,109,inferred_partial,incomplete numeric columns,2027 083-501-403 COMMUNICATION TOWER  INSURA 7) 00.00 00 00
+73,083-501-604,CARES Act Grant,Emg Manag,Expenditure,109,inferred_partial,incomplete numeric columns,2027 083-501-604 TELEPHONE 7) 00.00 00 00
+74,083-501-912,CARES Act Grant,Emg Manag,Expenditure,109,review,ambiguous OCR field grouping,2027 083-501-912 RADIO/COMMUNICATION 09 00.00 7) 00
+75,083-999-999,CARES Act Grant,Emergency Mngt.,Expenditure,109,review,ambiguous OCR field grouping,2027 083-999-999 TOTAL CARES ACT EXPENDITURES 00 00.00 00 oo
+76,084-516-301,Courthouse Renovation Fund,Courthouse Renovation Expe,Expenditure,111,inferred_partial,incomplete numeric columns,2027 084-516-301 ARCHITECT 09 00.00 00 00
+77,084-516-305,Courthouse Renovation Fund,Courthouse Renovation Expe,Expenditure,111,review,ambiguous OCR field grouping,2027 084-516-305 AUDIT EXPENSE 00 00.00 00 09
+78,085-516-200,Courthouse Renovation II,Crt Renov,Expenditure,113,review,ambiguous OCR field grouping,2027 085-516-200 CERTIFICATES OF OBLIGATION 00 00.00 09 00
+79,085-516-300,Courthouse Renovation II,Crt Renov,Expenditure,113,review,ambiguous OCR field grouping,2027 085-516-300 ADMINISTRATION FEES 00 00.00 09 00
+80,086-300-302,Unclaimed Property Account,Unclaimed,Revenue,114,inferred_partial,incomplete numeric columns,2027 086-300-302 INMATE TRUST STALE 100.00 00.00 00 00
+81,086-300-303,Unclaimed Property Account,Unclaimed,Revenue,114,review,ambiguous OCR field grouping,2027 086-300-303 COUNTY CLERK STALE i) oo 00 00 7)
+82,086-300-307,Unclaimed Property Account,Unclaimed,Revenue,114,inferred_partial,incomplete numeric columns,2027 086-300-307 COUNTY TREASURER STALE 750.00 00.00 00 00
+83,086-300-308,Unclaimed Property Account,Unclaimed,Revenue,114,inferred_partial,incomplete numeric columns,2027 086-300-308 JACK COUNTY CSCO STALE 25.00 00.00 00 00
+84,086-400-305,Unclaimed Property Account,Unclaimed Property Expenses,Expenditure,115,review,ambiguous OCR field grouping,2027 086-400-305 DISTRICT CLERK CLAIM 00 00.00 00 7)
+85,086-400-307,Unclaimed Property Account,Unclaimed Property Expenses,Expenditure,115,review,ambiguous OCR field grouping,2027 086-400-307 COUNTY TREASURER CLAIM 00 00.00 00 7)
+86,086-999-998,Unclaimed Property Account,Unclaimed Property Acct Tota 00 00.00 00 I),Expenditure,115,review,ambiguous OCR field grouping,2027 086-999-998 UNCLAIMED PROPERTY ACCT TOTA 00 00.00 00 i)
+87,087-300-306,Extradition Account,Dept 300,Revenue,116,parsed_missing_requested,YTD/percent consistency check failed,"2027 087-300-306 REVENUE 1,500.00 00 1,320.00 .00 003,246.51"
+88,087-399-999,Extradition Account,Dept 399,Revenue,116,parsed_missing_requested,YTD/percent consistency check failed,"2027 087-399-999 TOTAL REVENUE 1,500.00 00 1,320.00 .00 003,246.51"
+89,092-300-000,District & County Court Tech,District Court Tech Fund,Revenue,123,inferred_partial,incomplete numeric columns,2027 092-300-000 DISTRICT COURT TECH FUND 09 00.00 00 00
+90,092-403-000,District & County Court Tech,County Court Tech Fund E 00 00.00 00 I),Expenditure,124,review,ambiguous OCR field grouping,2027 092-403-000 COUNTY COURT TECH FUND E 00 00.00 00 i)
+91,092-403-206,District & County Court Tech,County Court Tech Fund E 00 00.00 00 I),Expenditure,124,review,ambiguous OCR field grouping,2027 092-403-206 COUNTY COURT TECH FUND & 750.00 00.00 739.66 00
+92,092-405-998,District & County Court Tech,District Court Tech Fund,Expenditure,125,review,ambiguous OCR field grouping,2027 092-405-998 EXPENDITURES 00 00.00 00 i)
+93,093-401-207,Probate Education Fund,Probate Education Fund Ex,Expenditure,127,parsed_missing_requested,YTD/percent consistency check failed,"2027 093-401-207 SCHOOL /CONFERENCE 1,000.00 1,000.00 00.00 00 721.75"
+94,093-401-998,Probate Education Fund,Probate Education Fund Ex,Expenditure,127,parsed_missing_requested,YTD/percent consistency check failed,"2027 093-401-998 PROBATE EDUCATION EXPENDITUR 1,000.00 1,000.00 00.00 00 721.75"
+95,093-999-999,Probate Education Fund,Probate Education Expenditur,Expenditure,127,parsed_missing_requested,YTD/percent consistency check failed,"2027 093-999-999 TOTAL EXPENDITURES 1,000.00 1,000.00 00.00 00 221.78"
+96,094-399-999,Records Management Fund,Dept 399,Revenue,128,parsed,YTD/percent consistency check failed,"2027 094-399-999 ACTUAL REVENUE 3.850.00 3,750.00 §.302.47 141.40 6,383.16 4,871.47"
+97,094-405-998,Records Management Fund,Dist. Clk Records Managem,Expenditure,131,review,ambiguous OCR field grouping,2027 094-405-998 EXPENDITURES TOTAL 00 00.00 00 09
+98,095-306-000,Courthouse Security,J.P. Courthouse Security,Revenue,132,parsed_missing_requested,YTD/percent consistency check failed,2027 095-306-000 J.P. COURTHOUSE SECURITY 200.00 200.00 00.00 00 00
+99,095-400-207,Courthouse Security,Courthouse Security,Expenditure,133,parsed_missing_requested,YTD/percent consistency check failed,2027 095-400-207 SCHOOL /CONFERENCE 400.00 400.00 00.00 410.00 00
+100,095-400-998,Courthouse Security,Courthouse Security,Expenditure,133,parsed,YTD/percent consistency check failed,"2027 095-400-998 EXPENDITURES 10,400.00 10,400.00 §.056.17 48.62 2,785.56 9,868.56"
+101,096-300-000,Justice Court Tech Fund,Justice Court Tech. Fund,Revenue,137,inferred_partial,incomplete numeric columns,2027 096-300-000 JUSTICE COURT TECH. FUND 09 00.00 00 00
+102,097-300-000,Jack County Jail,Jack County Jail,Revenue,139,review,ambiguous OCR field grouping,2027 097-300-000 JACK COUNTY JAIL INCOME 00 00.00 00 1)
+103,097-300-100,Jack County Jail,Jack County Jail,Revenue,139,review,ambiguous OCR field grouping,2027 097-300-100 CERTIFICATES OF OBLIGATION 00 00.00 09 00
+104,097-570-801,Jack County Jail,Jack County Jail Expense,Expenditure,140,review,ambiguous OCR field grouping,"2027 097-570-801 FURNITURE/FIXTURES, 00 00.00 00 1)"
+105,099-303-107,State Fines / Fees,County Clerk Fees,Revenue,141,parsed_missing_requested,YTD/percent consistency check failed,2027 099-303-107 ON SITE SEWAGE FACILITY (TCE 400.00 400.00 00.00 370.00 10.00-
+106,099-303-109,State Fines / Fees,County Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-303-109 NON-SUSPENSION FINE 00 00.00 00 100.00
+107,099-303-115,State Fines / Fees,County Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-303-115 STATE TRAFFIC FEES 00 00.00 00 1)
+108,099-303-121,State Fines / Fees,County Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-303-121 TIME PAYMENT PLAN (TP) ) 14.45.00 00 46.11
+109,099-303-123,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-123 JUDICIAL SUPPORT FEE (JS) 09 00.00 00 00
+110,099-303-125,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-125 CRIMINAL E-FILE 7) 00.00 00 00
+111,099-303-151,State Fines / Fees,County Clerk Fees,Revenue,141,parsed,YTD/percent consistency check failed,2027 099-303-151 BIRTH CERTIFICATE 600.00 500.00 $70.60 114.12 511.20 441.00
+112,099-303-154,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-154 NON-DISCLOSURE FEE 50.00 00.00 00 00
+113,099-303-159,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-159 INDIGENT LEGAL SERVICES ¢ 250.00 00.00 00 00
+114,099-303-160,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-160 JUDICIAL FUND (JF) 500.00 00.00 00 00
+115,099-303-164,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-164 JUDICIAL SUPPORT FEE (JSF 500.00 00.00 00 00
+116,099-303-165,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-165 CIVIL E-FILE 500.00 00.00 00 00
+117,099-303-167,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-167 PERSONNEL TRAINING FEE 300.00 00.00 00 00
+118,099-303-191,State Fines / Fees,County Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-303-191 SPECIALTY COURT FEE 250.00 00.00 00 00
+119,099-305-102,State Fines / Fees,District Clerk Fees,Revenue,141,parsed_missing_requested,YTD/percent consistency check failed; implausible OCR magnitude,"2027 099-305-102 STATE CONSOLIDATE CV FEE (NE 6,500.00 3,000.00 6,714.30 223.81 3.037.157.4410"
+120,099-305-108,State Fines / Fees,District Clerk Fees,Revenue,141,parsed_missing_requested,YTD/percent consistency check failed,2027 099-305-108 DNA CS 50.00 100.00 00.00 00 35.48
+121,099-305-110,State Fines / Fees,District Clerk Fees,Revenue,141,parsed_missing_requested,YTD/percent consistency check failed,2027 099-305-110 EMS TRAUMA FUND 50.00 200.00 00.00 105.55 182.65
+122,099-305-112,State Fines / Fees,District Clerk Fees,Revenue,141,parsed_missing_requested,YTD/percent consistency check failed,2027 099-305-112 JURY REINBURSEMENT (JRF) 5.00 00 6.29.00 18 00
+123,099-308-113,State Fines / Fees,Dept 308,Revenue,141,review,ambiguous OCR field grouping,2027 099-308-113 INDIGENT DEFENSE FUND (ID 10.00 00.00 00 2.01
+124,099-305-123,State Fines / Fees,District Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-305-123 JUDICIAL SUPPORT FEE (JS) 10.00 00.00 00 43.01
+125,099-305-125,State Fines / Fees,District Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-305-125 CRIMINAL E-FILE 20.00 00.00 5.00 4.79
+126,099-305-161,State Fines / Fees,District Clerk Fees,Revenue,141,inferred_partial,incomplete numeric columns,2027 099-305-161 DIVORCE & FAMILY LAW 50.00 00.00 00 00
+127,099-305-163,State Fines / Fees,District Clerk Fees,Revenue,141,review,ambiguous OCR field grouping,2027 099-305-163 INDIGENT LEGAL SERVICES ( 25.00 100.00 wa wn 70.00 50.00
+128,099-305-904,State Fines / Fees,District Clerk Fees,Revenue,142,parsed,YTD/percent consistency check failed,2027 099-305-904 JURY TRIAL FEE (2020) 10.00 10.00 00.00 75 4.00
+129,099-306-000,State Fines / Fees,J.P. Fees,Revenue,142,review,ambiguous OCR field grouping,2027 099-306-000 J.P. FEES 00 00.00 00 1)
+130,099-306-103,State Fines / Fees,J.P. Fees,Revenue,142,parsed,implausible OCR magnitude,"2027 099-306-103 STATE CCC 01-01-2020 125,000.00 35,000.00 122,362.36 349.61 96,693.15 37,398.88"
+131,099-306-114,State Fines / Fees,J.P. Fees,Revenue,142,parsed,YTD/percent consistency check failed,2027 099-306-114 MOVING VIOLATIONS FEE (HV 50.00 50.00 78 1.56 1.96 2.64
+132,099-306-120,State Fines / Fees,J.P. Fees,Revenue,142,parsed_missing_requested,YTD/percent consistency check failed,"2027 099-306-120 MOTOR CARRIER WEIGHT (CVE 100.00 1,500.00 00.00 1.00 1,208.50"
+133,099-306-121,State Fines / Fees,J.P. Fees,Revenue,142,parsed,YTD/percent consistency check failed,2027 099-306-121 TIME PAYMENT PLAN (TP) 50.00 500.00 953 1.91 119.21 100.00
+134,099-306-122,State Fines / Fees,J.P. Fees,Revenue,142,parsed_missing_requested,YTD/percent consistency check failed,2027 099-306-122 FUGITIVE APPREHENSION 10.00 100.00 00.00 10.00 00
+135,099-306-165,State Fines / Fees,J.P. Fees,Revenue,142,inferred_partial,incomplete numeric columns,2027 099-306-165 CIVIL £-FILE 100.00 00.00 00 00
+136,099-306-167,State Fines / Fees,J.P. Fees,Revenue,142,review,ambiguous OCR field grouping,2027 099-306-167 PERSONNEL TRAINING FEE 100.00 00.00 4.00 00
+137,099-306-194,State Fines / Fees,J.P. Fees,Revenue,142,review,ambiguous OCR field grouping,2027 099-306-194 COMPENSATION TO CRIME VICTIM 50.00 00.00 30.00 00
+138,099-400-454,State Fines / Fees,State Fines & Fees,Expenditure,143,parsed_missing_requested,YTD/percent consistency check failed,2027 099-400-454 CHILO SAFETY SEAT 100.00 200.00 00.00 291.95 60.00-
+139,099-405-489,State Fines / Fees,Justice Of The Peace Exp,Expenditure,144,parsed,YTD/percent consistency check failed,"2027 099-405-489 COLLECTION FEES 8,500.00 8,500.00 7.879.338 92.70 7,134.43 7,170.37"
+140,099-406-998,State Fines / Fees,Dept 406,Expenditure,144,parsed,YTD/percent consistency check failed,"2027 099-406-998 EXPENDITURES 8,500.00 8,500.00 7.879.338 92.70 7,134.43 7,170.37"
